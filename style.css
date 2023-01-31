@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    background-color:black;
+position: fixed;
+left: 0;
+right: 0;
+top: 5px;
+height: 64px;
+border: 1px solid white;
+align-items: center;
+z-index: 100;
+
+}
+.nav-bar *{
+    display: inline;
+
+}
+.nav-bar li a{
+    color:white;
+    text-decoration: none;
+    padding: 18px;
+}
+nav{
+    position: absolute;
+    right: 106px;
+    bottom: 26px;
+}
+.section-2{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: absolute;
+    height: 101vh;
+    width: 205vh;
+    right: 0;
+    left:0;
+    top: 70px;
+}
+.heading{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 71px;
+    animation: fadeIn 5s;
+}
+@keyframes heading {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+.image{
+    position: absolute;
+    left: 100vh;
+    bottom: 10px;
+    top: 200px;
+}
+.scroll-down{
+    position: absolute;
+    bottom: 100px;
+    left: 600px;
+}
+.about-us{
+    position: absolute;
+    left:763px;
+    right:0;
+    font-weight: 700;
+font-size: 24px;
+line-height: 27px;
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+
+}
+.about{
+    position: absolute;
+    left: 756px;
+    bottom: 111px;
+    font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+}
+.section-3{
+    position: absolute;
+    display: flex;
+    top:127vh;
+    left: 0;
+    right: 0;
+}
+.service1{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 7px;
+   
+
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }
+.service1:hover{
+    background-color: black;
+    color: white;
+    /* opacity: 0.6; */
+    transition: 0.3s;
+}
+.services{
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+.section-4{
+    padding-top: 1858px;
+}
+#section-5{
+    background-color: black;
+
+}
+form{
+    width: 381px;
+    margin: -53px;
+    font-size: 36px;
+
+}
+.main-contanct{
+    position: relative;
+    top:-57px;
+    display: flex;
+    justify-content: center;
+
+}
+.contanct{
+    color: white;
+    font-size: 60px;
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#fname{
+    color:white;
+    background-color: black;
+    border: 1px solid wheat;
+    width: 471px;
+    padding: 9px;
+}
+#lname{
+    color:white;
+    background-color: black;
+    border: 1px solid wheat;
+    width: 471px;
+    padding: 9px;
+}
+#email{
+    color:white;
+    background-color: black;
+    border: 1px solid wheat;
+    width: 471px;
+    padding: 9px;
+}
+#r{
+    color:white;
+    background-color: black;
+    border: 1px solid wheat;
+    width: 471px;
+    padding: 9px;
+}
+#butt{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    margin: 13px;
+    padding: 12px;
+    width:116px;
+}
